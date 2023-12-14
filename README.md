@@ -88,13 +88,13 @@ If I wish to create my container with the name "motive-env", my command would th
 Windows:
 
 ```console
-docker create --name motive-env -v "C:\Users\booya\source\MotiveWave Studies":/opt/MotiveWave Studies -v "C:\Users\booya\MotiveWave Extensions":"/root/MotiveWave Extensions" -it motive
+docker create --name motive-env -v "C:\Users\booya\source\MotiveWave Studies":"/opt/MotiveWave Studies" -v "C:\Users\booya\MotiveWave Extensions":"/root/MotiveWave Extensions" -it motive
 ```
 
 Mac:
 
 ```console
-docker create --name motive-env -v "/Users/trader/source/MotiveWave Studies":/opt/MotiveWave Studies -v "/Users/trader/MotiveWave Extensions":"/root/MotiveWave Extensions" -it motive
+docker create --name motive-env -v "/Users/trader/source/MotiveWave Studies":"/opt/MotiveWave Studies" -v "/Users/trader/MotiveWave Extensions":"/root/MotiveWave Extensions" -it motive
 ```
 
 ## Usage Instructions
