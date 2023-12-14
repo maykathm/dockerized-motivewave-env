@@ -119,6 +119,6 @@ Because we mapped the ```MotiveWave Studies``` folder from your native system to
 
 ### Step 3 - Build and deploy
 
-Open up a terminal (ctrl+j or command+j) and move to the build folder (```cd /opt/MotiveWave\ Studies/build```) and run the command ```ant```
+Open up a VS Code terminal (ctrl+j or command+j) and move to the build folder (```cd /opt/MotiveWave\ Studies/build```) and run the command ```ant```
 
 Because we mapped the ```MotiveWave Extensions``` folder from the container to your native system home directory ```MotiveWave Extensions``` folder, you should see the deployment on your native system and see the changes reflected in your MotiveWave installed on your native system.
