@@ -59,7 +59,7 @@ The commands to familiarize oneself with are
 
 One should add in some volume mappings to ensure a seamless development experience. There are two directories to map into the container:
 
-- The development directory (the directory of the unzipped "MotiveWave_Studies.zip downloaded from Motive Wave's websight)
+- The development directory (the directory of the unzipped "MotiveWave_Studies.zip downloaded from Motive Wave's website)
 - The ```MotiveWave Extensions``` directory found under the home folder (assuming the username is "user": ```/Users/user/MotiveWave Extensions``` on a Mac, ```C:\Users\user\MotiveWave Extensions``` on Windows, and ```/home/user/MotiveWave Extensions``` on Linux) to the container home folder
 
 #### Windows folders example
